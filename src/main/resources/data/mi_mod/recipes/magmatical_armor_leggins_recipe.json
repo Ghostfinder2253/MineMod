@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "mi_mod:magmaticcoal"
+    },
+    "b": {
+      "item": "minecraft:netherite_leggings"
+    }
+  },
+  "result": {
+    "item": "mi_mod:magmatical_armor_leggings",
+    "count": 1
+  }
+}

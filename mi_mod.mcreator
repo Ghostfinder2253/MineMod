@@ -1,0 +1,143 @@
+{
+  "mod_elements": [
+    {
+      "name": "Magmaticcoal",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmaticcoal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mimod/item/MagmaticcoalItem.java",
+          "src/main/resources/assets/mi_mod/models/item/magmaticcoal.json"
+        ]
+      }
+    },
+    {
+      "name": "Magmaticcoalextension",
+      "type": "itemextension",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmaticcoalextension",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Mimod",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mimod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MagmaticCoalRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmatic_coal_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mi_mod/recipes/magmatic_coal_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagmaticCoalRecipeLarge",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmatic_coal_recipe_large",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mi_mod/recipes/magmatic_coal_recipe_large.json"
+        ]
+      }
+    },
+    {
+      "name": "MagmaticalArmor",
+      "type": "armor",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmatical_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mi_mod/models/item/magmatical_armor_leggings.json",
+          "src/main/java/net/mcreator/mimod/item/MagmaticalArmorItem.java",
+          "src/main/resources/assets/mi_mod/models/item/magmatical_armor_helmet.json",
+          "src/main/resources/assets/mi_mod/models/item/magmatical_armor_chestplate.json",
+          "src/main/resources/assets/mi_mod/models/item/magmatical_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "MagmaticalArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmatical_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mi_mod/recipes/magmatical_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagmaticalArmorLegginsRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmatical_armor_leggins_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mi_mod/recipes/magmatical_armor_leggins_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item_group.mi_mod.mimod": "Mimod",
+      "item.mi_mod.magmatical_armor_chestplate": "Magmatical Armor Chestplate",
+      "item.mi_mod.magmatical_armor_leggings": "Magmatical Armor Leggings",
+      "item.mi_mod.magmaticcoal": "Magmatic coal",
+      "item.mi_mod.magmatical_armor_boots": "Magmatical Armor Boots",
+      "item.mi_mod.magmatical_armor_helmet": "Magmatical Armor Helmet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mi_mod",
+    "modName": "Mi mod",
+    "version": "1.0.0",
+    "author": "Rodri, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.mimod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

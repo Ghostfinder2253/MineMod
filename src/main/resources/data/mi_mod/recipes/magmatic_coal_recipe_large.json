@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:coal"
+    },
+    "b": {
+      "item": "minecraft:magma_block"
+    }
+  },
+  "result": {
+    "item": "mi_mod:magmaticcoal",
+    "count": 8
+  }
+}
