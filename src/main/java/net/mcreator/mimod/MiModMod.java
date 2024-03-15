@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.mimod.init.MiModModTabs;
+import net.mcreator.mimod.init.MiModModParticleTypes;
 import net.mcreator.mimod.init.MiModModItems;
 
 import java.util.function.Supplier;
@@ -53,6 +54,8 @@ public class MiModMod {
 		MiModModItems.REGISTRY.register(bus);
 
 		MiModModTabs.REGISTRY.register(bus);
+
+		MiModModParticleTypes.REGISTRY.register(bus);
 
 	}
 

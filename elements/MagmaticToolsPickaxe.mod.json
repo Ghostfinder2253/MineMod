@@ -1,0 +1,40 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "magmatictools_pickaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "MagmaticTools Pickaxe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Mimod"
+    },
+    "harvestLevel": 5,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 6.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.DIAMOND_PICKAXE"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "MagmaticToolsPickaxeAlRomperUnBloqueConLaHerramienta"
+    }
+  }
+}
