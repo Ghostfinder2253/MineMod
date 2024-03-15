@@ -104,6 +104,88 @@
           "src/main/resources/data/mi_mod/recipes/magmatical_armor_leggins_recipe.json"
         ]
       }
+    },
+    {
+      "name": "Ksjbdvgiu",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ksjbdvgiu",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mi_mod/models/item/ksjbdvgiu.json",
+          "src/main/java/net/mcreator/mimod/item/KsjbdvgiuItem.java"
+        ]
+      }
+    },
+    {
+      "name": "KsjbdvgiuOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ksjbdvgiu_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mi_mod/worldgen/placed_feature/ksjbdvgiu_ore.json",
+          "src/main/resources/assets/mi_mod/blockstates/ksjbdvgiu_ore.json",
+          "src/main/resources/assets/mi_mod/models/item/ksjbdvgiu_ore.json",
+          "src/main/resources/assets/mi_mod/models/block/ksjbdvgiu_ore.json",
+          "src/main/resources/data/mi_mod/forge/biome_modifier/ksjbdvgiu_ore_biome_modifier.json",
+          "src/main/resources/data/mi_mod/worldgen/configured_feature/ksjbdvgiu_ore.json",
+          "src/main/java/net/mcreator/mimod/block/KsjbdvgiuOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "KsjbdvgiuBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ksjbdvgiu_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mi_mod/blockstates/ksjbdvgiu_block.json",
+          "src/main/java/net/mcreator/mimod/block/KsjbdvgiuBlockBlock.java",
+          "src/main/resources/assets/mi_mod/models/block/ksjbdvgiu_block.json",
+          "src/main/resources/assets/mi_mod/models/item/ksjbdvgiu_block.json"
+        ]
+      }
+    },
+    {
+      "name": "KsjbdvgiuOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ksjbdvgiu_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mi_mod/recipes/ksjbdvgiu_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "KsjbdvgiuBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ksjbdvgiu_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mi_mod/recipes/ksjbdvgiu_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "KsjbdvgiuOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ksjbdvgiu_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mi_mod/recipes/ksjbdvgiu_ore_smelting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -112,10 +194,13 @@
     "en_us": {
       "item_group.mi_mod.mimod": "Mimod",
       "item.mi_mod.magmatical_armor_chestplate": "Magmatical Armor Chestplate",
+      "block.mi_mod.ksjbdvgiu_block": "Block of Ksjbdvgiu",
       "item.mi_mod.magmatical_armor_leggings": "Magmatical Armor Leggings",
+      "block.mi_mod.ksjbdvgiu_ore": "Ksjbdvgiu Ore",
       "item.mi_mod.magmaticcoal": "Magmatic coal",
       "item.mi_mod.magmatical_armor_boots": "Magmatical Armor Boots",
-      "item.mi_mod.magmatical_armor_helmet": "Magmatical Armor Helmet"
+      "item.mi_mod.magmatical_armor_helmet": "Magmatical Armor Helmet",
+      "item.mi_mod.ksjbdvgiu": "Ksjbdvgiu"
     }
   },
   "foldersRoot": {

@@ -1,8 +1,11 @@
 {
   "item_group.mi_mod.mimod": "Mimod",
   "item.mi_mod.magmatical_armor_chestplate": "Magmatical Armor Chestplate",
+  "block.mi_mod.ksjbdvgiu_block": "Block of Ksjbdvgiu",
   "item.mi_mod.magmatical_armor_leggings": "Magmatical Armor Leggings",
+  "block.mi_mod.ksjbdvgiu_ore": "Ksjbdvgiu Ore",
   "item.mi_mod.magmaticcoal": "Magmatic coal",
   "item.mi_mod.magmatical_armor_boots": "Magmatical Armor Boots",
-  "item.mi_mod.magmatical_armor_helmet": "Magmatical Armor Helmet"
+  "item.mi_mod.magmatical_armor_helmet": "Magmatical Armor Helmet",
+  "item.mi_mod.ksjbdvgiu": "Ksjbdvgiu"
 }
