@@ -31,7 +31,6 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.mimod.init.MiModModTabs;
 import net.mcreator.mimod.init.MiModModItems;
-import net.mcreator.mimod.init.MiModModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -50,8 +49,6 @@ public class MiModMod {
 	public MiModMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
-		MiModModBlocks.REGISTRY.register(bus);
 
 		MiModModItems.REGISTRY.register(bus);
 

@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "mi_mod:block/ksjbdvgiu_ore_block",
-    "particle": "mi_mod:block/ksjbdvgiu_ore_block"
-  },
-  "render_type": "solid"
-}
