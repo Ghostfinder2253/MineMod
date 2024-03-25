@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "base": {
+    "item": "mi_mod:magmaticcoal"
+  },
+  "addition": {
+    "item": "mi_mod:magmaticcoal"
+  },
+  "result": {
+    "item": "mi_mod:magmatic_tools_pickaxe"
+  }
+}

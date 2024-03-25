@@ -1,13 +1,11 @@
 {
-  "item.mi_mod.magmatic_tools_axe": "MagmaticTools Axe",
-  "item.mi_mod.magmatic_tools_hoe": "MagmaticTools Hoe",
   "item_group.mi_mod.mimod": "Mimod",
-  "item.mi_mod.magmatic_tools_sword": "MagmaticTools Sword",
   "item.mi_mod.magmatical_armor_chestplate": "Magmatical Armor Chestplate",
   "item.mi_mod.magmatical_armor_leggings": "Magmatical Armor Leggings",
+  "block.mi_mod.amatistita_ore": "Amatistita Ore",
   "item.mi_mod.magmaticcoal": "Magmatic coal",
   "item.mi_mod.magmatical_armor_boots": "Magmatical Armor Boots",
   "item.mi_mod.magmatical_armor_helmet": "Magmatical Armor Helmet",
-  "item.mi_mod.magmatic_tools_shovel": "MagmaticTools Shovel",
+  "item.mi_mod.amat": "Amat",
   "item.mi_mod.magmatic_tools_pickaxe": "MagmaticTools Pickaxe"
 }

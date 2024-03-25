@@ -32,9 +32,6 @@
     ],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onBlockDestroyedWithTool": {
-      "name": "MagmaticToolsPickaxeAlRomperUnBloqueConLaHerramienta"
-    }
+    "damageOnCrafting": false
   }
 }

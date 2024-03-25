@@ -30,8 +30,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.mimod.init.MiModModTabs;
-import net.mcreator.mimod.init.MiModModParticleTypes;
 import net.mcreator.mimod.init.MiModModItems;
+import net.mcreator.mimod.init.MiModModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -51,11 +51,11 @@ public class MiModMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		MiModModBlocks.REGISTRY.register(bus);
+
 		MiModModItems.REGISTRY.register(bus);
 
 		MiModModTabs.REGISTRY.register(bus);
-
-		MiModModParticleTypes.REGISTRY.register(bus);
 
 	}
 

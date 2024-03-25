@@ -8,15 +8,14 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.mimod.item.MagmaticcoalItem;
 import net.mcreator.mimod.item.MagmaticalArmorItem;
-import net.mcreator.mimod.item.MagmaticToolsSwordItem;
-import net.mcreator.mimod.item.MagmaticToolsShovelItem;
 import net.mcreator.mimod.item.MagmaticToolsPickaxeItem;
-import net.mcreator.mimod.item.MagmaticToolsHoeItem;
-import net.mcreator.mimod.item.MagmaticToolsAxeItem;
+import net.mcreator.mimod.item.AmatItem;
 import net.mcreator.mimod.MiModMod;
 
 public class MiModModItems {
@@ -26,9 +25,11 @@ public class MiModModItems {
 	public static final RegistryObject<Item> MAGMATICAL_ARMOR_CHESTPLATE = REGISTRY.register("magmatical_armor_chestplate", () -> new MagmaticalArmorItem.Chestplate());
 	public static final RegistryObject<Item> MAGMATICAL_ARMOR_LEGGINGS = REGISTRY.register("magmatical_armor_leggings", () -> new MagmaticalArmorItem.Leggings());
 	public static final RegistryObject<Item> MAGMATICAL_ARMOR_BOOTS = REGISTRY.register("magmatical_armor_boots", () -> new MagmaticalArmorItem.Boots());
-	public static final RegistryObject<Item> MAGMATIC_TOOLS_AXE = REGISTRY.register("magmatic_tools_axe", () -> new MagmaticToolsAxeItem());
 	public static final RegistryObject<Item> MAGMATIC_TOOLS_PICKAXE = REGISTRY.register("magmatic_tools_pickaxe", () -> new MagmaticToolsPickaxeItem());
-	public static final RegistryObject<Item> MAGMATIC_TOOLS_SWORD = REGISTRY.register("magmatic_tools_sword", () -> new MagmaticToolsSwordItem());
-	public static final RegistryObject<Item> MAGMATIC_TOOLS_SHOVEL = REGISTRY.register("magmatic_tools_shovel", () -> new MagmaticToolsShovelItem());
-	public static final RegistryObject<Item> MAGMATIC_TOOLS_HOE = REGISTRY.register("magmatic_tools_hoe", () -> new MagmaticToolsHoeItem());
+	public static final RegistryObject<Item> AMAT = REGISTRY.register("amat", () -> new AmatItem());
+	public static final RegistryObject<Item> AMATISTITA_ORE = block(MiModModBlocks.AMATISTITA_ORE);
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
 }

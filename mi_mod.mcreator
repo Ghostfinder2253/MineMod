@@ -120,168 +120,58 @@
       }
     },
     {
-      "name": "MagmaticToolsAxe",
-      "type": "tool",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magmatic_tools_axe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mimod/item/MagmaticToolsAxeItem.java",
-          "src/main/resources/assets/mi_mod/models/item/magmatic_tools_axe.json"
-        ]
-      }
-    },
-    {
-      "name": "MagmaticToolsSword",
-      "type": "tool",
+      "name": "MagmaticPickaxeRecipe",
+      "type": "recipe",
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "magmatic_tools_sword",
+      "registry_name": "magmatic_pickaxe_recipe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mimod/item/MagmaticToolsSwordItem.java",
-          "src/main/resources/assets/mi_mod/models/item/magmatic_tools_sword.json"
+          "src/main/resources/data/mi_mod/recipes/magmatic_pickaxe_recipe.json"
         ]
       }
     },
     {
-      "name": "MagmaticToolsShovel",
-      "type": "tool",
+      "name": "Amat",
+      "type": "item",
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "magmatic_tools_shovel",
+      "registry_name": "amat",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mimod/item/MagmaticToolsShovelItem.java",
-          "src/main/resources/assets/mi_mod/models/item/magmatic_tools_shovel.json"
+          "src/main/java/net/mcreator/mimod/item/AmatItem.java",
+          "src/main/resources/assets/mi_mod/models/item/amat.json"
         ]
       }
     },
     {
-      "name": "MagmaticToolsHoe",
-      "type": "tool",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magmatic_tools_hoe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mi_mod/models/item/magmatic_tools_hoe.json",
-          "src/main/java/net/mcreator/mimod/item/MagmaticToolsHoeItem.java"
-        ]
-      }
-    },
-    {
-      "name": "MagmaticToolsPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magmatic_tools_pickaxe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mi_mod/recipes/magmatic_tools_pickaxe_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "MagmaticToolsAxeRecipe",
-      "type": "recipe",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magmatic_tools_axe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mi_mod/recipes/magmatic_tools_axe_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "MagmaticToolsSwordRecipe",
-      "type": "recipe",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magmatic_tools_sword_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mi_mod/recipes/magmatic_tools_sword_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "MagmaticToolsShovelRecipe",
-      "type": "recipe",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magmatic_tools_shovel_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mi_mod/recipes/magmatic_tools_shovel_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "MagmaticToolsHoeRecipe",
-      "type": "recipe",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magmatic_tools_hoe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mi_mod/recipes/magmatic_tools_hoe_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "Magmaparticle",
-      "type": "particle",
+      "name": "AmatistitaOre",
+      "type": "block",
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "magmaparticle",
+      "registry_name": "amatistita_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mimod/client/particle/MagmaparticleParticle.java",
-          "src/main/resources/assets/mi_mod/particles/magmaparticle.json"
+          "src/main/resources/assets/mi_mod/models/item/amatistita_ore.json",
+          "src/main/resources/assets/mi_mod/blockstates/amatistita_ore.json",
+          "src/main/resources/assets/mi_mod/models/block/amatistita_ore.json",
+          "src/main/java/net/mcreator/mimod/block/AmatistitaOreBlock.java"
         ]
       }
     },
     {
-      "name": "MagmaticToolsPickaxeAlRomperUnBloqueConLaHerramienta",
-      "type": "procedure",
+      "name": "AmatLootTable",
+      "type": "loottable",
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "magmatic_tools_pickaxe_al_romper_un_bloque_con_la_herramienta",
+      "registry_name": "amat_loot_table",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mimod/procedures/MagmaticToolsPickaxeAlRomperUnBloqueConLaHerramientaProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/resources/data/mi_mod/loot_tables/blocks/amatistita_ore.json"
         ]
       }
     }
@@ -290,16 +180,14 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.mi_mod.magmatic_tools_axe": "MagmaticTools Axe",
-      "item.mi_mod.magmatic_tools_hoe": "MagmaticTools Hoe",
       "item_group.mi_mod.mimod": "Mimod",
-      "item.mi_mod.magmatic_tools_sword": "MagmaticTools Sword",
       "item.mi_mod.magmatical_armor_chestplate": "Magmatical Armor Chestplate",
       "item.mi_mod.magmatical_armor_leggings": "Magmatical Armor Leggings",
+      "block.mi_mod.amatistita_ore": "Amatistita Ore",
       "item.mi_mod.magmaticcoal": "Magmatic coal",
       "item.mi_mod.magmatical_armor_boots": "Magmatical Armor Boots",
       "item.mi_mod.magmatical_armor_helmet": "Magmatical Armor Helmet",
-      "item.mi_mod.magmatic_tools_shovel": "MagmaticTools Shovel",
+      "item.mi_mod.amat": "Amat",
       "item.mi_mod.magmatic_tools_pickaxe": "MagmaticTools Pickaxe"
     }
   },

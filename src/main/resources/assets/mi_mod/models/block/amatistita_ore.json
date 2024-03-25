@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mi_mod:block/amatistita",
+    "up": "mi_mod:block/amatistita",
+    "north": "mi_mod:block/amatistita",
+    "east": "mi_mod:block/amatistita",
+    "south": "mi_mod:block/amatistita",
+    "west": "mi_mod:block/amatistita",
+    "particle": "mi_mod:block/amatistita"
+  },
+  "render_type": "solid"
+}
